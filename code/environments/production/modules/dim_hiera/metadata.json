@@ -1,0 +1,15 @@
+{
+  "name": "eric0-dim_hiera",
+  "version": "0.1.0",
+  "author": "eric0",
+  "summary": "data in modules using in-module hiera data provider",
+  "license": "Apache-2.0",
+  "source": "./dim_hiera",
+  "project_page": "ahpook/dim_hiera",
+  "issues_url": "ahpook/dim_hiera",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": "hiera"
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "eric0-dim",
+  "version": "0.1.0",
+  "author": "eric0",
+  "summary": "data in modules",
+  "license": "Apache-2.0",
+  "source": "./dim",
+  "project_page": "ahpook/dim",
+  "issues_url": "ahpook/dim",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

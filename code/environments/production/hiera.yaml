@@ -1,0 +1,13 @@
+---
+version: 4
+datadir: data
+hierarchy:
+  - name: "Nodes"
+    backend: yaml
+    path: "nodes/%{facts.networking.fqdn}"
+
+  - name: "virtual/%{facts.virtual}"
+    backend: yaml
+
+  - name: "common"
+    backend: yaml
